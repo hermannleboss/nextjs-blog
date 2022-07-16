@@ -41,6 +41,7 @@ export default function Home({allPostsData}) {
     );
 };
 
+//Only in build time and only n page
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
     return {
