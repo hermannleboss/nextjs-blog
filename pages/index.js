@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, {siteTitle} from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from "next/link";
-import {getSortedPostsData} from '../posts.js';
+import {getSortedPostsData} from "../lib/posts";
 
 export default function Home({allPostsData}) {
     return (
